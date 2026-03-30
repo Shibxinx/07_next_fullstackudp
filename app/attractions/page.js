@@ -19,7 +19,7 @@ export default function page() {
 
     return (
         <div>
-            <h1>Thai Attractions</h1>
+            <h1>Attractions</h1>
             <ul>
                 {attractions.map((item) => (
                     <li key={item.id}>
